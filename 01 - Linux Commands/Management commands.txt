@@ -1,0 +1,85 @@
+root is the most powerful.
+$ --> normal user mode
+# --> special mode
+root has the power to change the password without knowing the actual password.
+directories of root have different path.
+eg : /sbin , us/sbin
+
+tree --> directies structure are seen in form of tree
+
+1. mkdir test --> create file
+2. cd test --> goto test
+3. ls - a --> see which files are there
+they show . and .. they are the hidden directories.
+. --> 
+.. -->
+eg : cd ./viit/test
+cat --> print the contents
+shell checks if the files exists or no.
+**shell reads the command then interprets it and then sends it to kernel.
+current directory is related to process.
+
+File related Commands :
+rmdir --> deletes the directory and the condition is that the directory should be empty.
+rm -r test --> in a recursive way delete the directory.
+cp --> copy needs minimum 2 parameters : source and destinaton
+mv --> move can also be used to rename the file.
+
+Process related Commands :
+ps --> gives process name name and pid
+man --> manual
+man man 
+man ls --> manual of ls will be seen
+ls.help.txt --> saves file in ls
+eg :  (md [   ][   ]) --> [] bracket mean optional
+man -f printf --> 1 and 3 are sections.
+man -k printf or apropos printf--> checks where all printf is there and gives u info.
+
+Terminal : Display or monitor and Keyboard
+Terminal has 3 files attached : stdin (<0) , stdout (1>) , stderr (2>) : these are not actual files but they are strings or buffers.
+> --> this sign is used for stdout
+< --> this is for std in
+wc --> word command
+< and > are redirectional operators
+eg :
+> cat abc.txt>z.txt
+> wc<z.txt>output.txt
+> cat yz.txt
+error this file does not exists
+> cat yz.txt>output.txt
+output.txt file does not exists
+> cat yz.txt 2>output.txt
+> cat abc.txt2>output
+error coz standard string output is not going to output
+> cat abc.txt 1>output
+
+Compression and Archieve Creation Command :
+tar --> used to archieve mutiple files into one file.
+cvf --> is a flag; c : creates : v : verbose ; f : filename of new file ;
+xvf --> x : extract intead of c to extract a file
+eg:
+> tar -cvf newarchieve.tar a.txt b.txt c.txt
+newarchieve v.tar
+gzip --> for compression  ; gunzip
+bzip2 --> for compression  ; bunzip2
+zip --> for compression  ; unzip
+eg :
+> wc -c ls_help.txt
+> bytes
+> gzip ls_help.txt
+> ls_help.txt.gz
+> wc -c ls_help.txtgz
+> gunzip ls_help.txtgz
+> tar xvf newarchieve.tar a.txt b.txt c.txt
+
+Network Commands :
+SSh -->  Secured Shell -- username@ip
+
+man ls 
+man ls has exit status which is imp
+every command is a C program
+Author --> Richard Stallman
+GNU --> GNU not Unix
+GPL --> General Public License : for git type tools to be open source it should have GPL.
+
+
