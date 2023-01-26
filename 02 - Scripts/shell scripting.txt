@@ -1,0 +1,29 @@
+#!/bin/sh  --------> shell
+# This is script;
+# To print 
+# Author Miss. Priya Chougale
+# Date : 24/01/23
+echo "Hello world"
+
+echo $SHELL 
+
+By default shell ---> sh
+New shell is ---> bash
+Latest by default shell ---> dash
+
+
+> bin/sh 
+> bash 
+chmod u+ x
+> ./01_script.sh
+
+umask --> whenever u create file umask gives the permission bydefault
+
+printf is equivalent to echo.
+printf requires /n command to print on new line 
+
+>script.sh one
+echo $? --> 0; if 
+ if $? = 0 then decide to check if the above commands of positional parameters are executed or not.
+>cat foo
+>echo $?
