@@ -1,0 +1,57 @@
+id -u ---> returns root ; cmd
+ 
+echo "Enter username"
+read name
+if [ 'id -u $name' -eq 0 ]
+then
+echo "The user is root"
+else
+echo "The user is not root"
+fi
+
+Arithmetic comparison 
+-eq
+-gt
+-lt
+-ge
+-le
+
+gedit script.sh &
+& --> changes the default behavior of a shell
+
+gedit script.sh--> waits for child process to save and exit
+
+built-in command is fastest coz we dont have to create library outside shell.
+built-in command new process is not born else for is supposed to be created
+
+2b:
+echo "Enter usoftware to be installed"
+read sotfware
+$software --version
+if [ $? -eq 0 ]
+then
+echo "Software is already installed"
+else
+echo "Not installed"
+fi
+sudo apt-install $software
+
+run.sh :
+crontab -l ---> gives job scheduled
+crontab -e
+# bin/sh
+touch abc.txt
+echo "My name is priya"
+chmod u+x run.sh
+
+* * * * *
+* --> 0-59 min
+* --> 0-23 hrs
+* --> 1-31 days of month (dom)
+* --> 1-12 months
+* --> 0-6 days of weeks
+
+block storage --->EBS; it is divided into fixed blocks ; eg: hard disk is a block storage
+object storage --> S3, no splitting
+file storage --> elastic file storage
+SAN, NAS, PAS
