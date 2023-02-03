@@ -1,0 +1,28 @@
+datacentre --> contains servers
+India has 2 data centres --> Mumbai & Hyderabad
+configurable computing resources remotely / store , manage and process data --> cloud computing
+Refer NIST Definition for cloud computing
+SLA --> Service Level Agreement
+
+1. CLoud service Model --> SaaS , PaaS , IaaS 
+IaaS --> specificatins given to cloud like we say for laptop we need this much RAM ,GB,etc.
+PaaS --> readymade development platform we use OR development environment. Globally accessable , scalable, etc like features.
+Saas --> readymade software like APIs , google docs , pdf sites, ChatGPT.
+
+2. Cloud Deplyoment Model --> Public , Hybrid , Community , Public 
+Public Cloud --> Pros: duration is less , cheaper , less maintanence ; Cons: bound to follow the rules, use only the available resources ; eg : AWS , GCP
+Private Cloud/ On - premises Cloud --> Pros : Security , services that run in my firewall is called on premise cloud.
+Hybrid --> Private + Public ; Mostly used ; third party services
+Community Cloud --> byjus used only for education.
+Multi Cloud --> run single application in aws,gcp and azure for best features
+ 
+3. Essential Characteristics --> 
+On-demand self service 
+Broad network access 
+Resource pooling
+Rapid elasticity 
+Measured service
+Resiliency --> Robust to any failure  
+
+
+
