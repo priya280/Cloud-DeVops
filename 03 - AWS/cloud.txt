@@ -24,5 +24,29 @@ Rapid elasticity
 Measured service
 Resiliency --> Robust to any failure  
 
+Multi Factor Aunthentiation --> MFA
+
+AWS:
+1. Regions contains Az
+2. Availibity zones --> Az contains datacentres
+3. Edge location less latency of services.
+
+Difference betn GB & GiB.
+us-east 1 contains all new services and billing services.
+
+Web servers used to deploy websites :
+Ngnix , Apache , Tomcat.
+httpd --> d stands for demon service
+login --> EC2 instance then launch instance then give name then give OS name use aws amazon linux latest one AMI --> amazon Machine Image (It is imp to reate a machine) ---> select instance type t2 micro --> key pair create new keypair --> RSA --> open ssh coz we are using linux --> Allow SSH and HTTP --> create instance --> Running --> Connect
+
+sudo yum update
+sudo yum install httpd -y
+sudo systemctl start httpd
+sudo systemcpl enable httpd
+sudo systemmult status httpd
+echo "<html><body><h1> My name is Priya </h1> </body></html>"
+/vaz/www/html/index.html/
+
+0.0.0.0/0 --> u can globally open it from anywhere.
 
 
