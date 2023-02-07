@@ -6,3 +6,16 @@ Region-->  actual physical location.
 AZs --> has multiple data centers with different availibilities.
 Edge Locations --> third party vendors, has less latency,used for cloud formation.
 
+by default we are root on aws.
+IAM is a global service.
+Policies are written in JSON Scripts.
+
+Policies : 
+1. User --> 
+2. Group
+3. Roles --> Roles are temporary.
+https://947185979379.signin.aws.amazon.com/console
+
+S3 Bucket --> scalable storage bucket in cloud.
+S3 --> Simple storage Service Bucket
+used for IEEE data port 
