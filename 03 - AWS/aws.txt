@@ -1,0 +1,8 @@
+AWS Cloud has --> Management Console(GUI), SDK and AWS Cli
+AWS Cli used for commands 
+SDK is for devoloping and coding.
+IAM (Identity Access Management)
+Region-->  actual physical location. 
+AZs --> has multiple data centers with different availibilities.
+Edge Locations --> third party vendors, has less latency,used for cloud formation.
+
