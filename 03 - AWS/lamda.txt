@@ -1,0 +1,26 @@
+For u to know abt cloud u must know :
+--- Compute
+1. EC2 (Elastic Cloud Computing)
+2. Lamda Function
+ 
+--- Storage
+1. EFS
+2. EBS
+3. S3
+
+--- Network
+1. VP
+
+--- Database
+1. Structured
+2. Unstructured
+3. Semi-Structured
+
+--- AI/ML
+
+In Compute: 
+2. Lamda 
+--> Means serverless
+--> Uses FaaS
+--> Trigger base i.e. it works on events
+
