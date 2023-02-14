@@ -1,0 +1,27 @@
+Setup :-
+1. Create a IAM User
+2. Assign Admin Priveledges
+3. Download credits.csv
+4. Install aws cli
+5. aws config
+6. Install TF
+
+Iam user --> then create password for user ---> sign in as IAM user again then go to created user ---> create access key --> CLI--> install aws cli --> create bucket -->
+
+set-location
+> aws configure
+> notepad main.tf
+> ls 
+
+Terraform types :
+1. Cli
+2. Cloud
+3. Enterprise
+
+> terraform init 
+  -- registory of terraform 
+> terraform plan --> tells which and what resorces he will create
+> terraform apply  
+AMI --> Amazon machine image
+regionwise ami ids are different
+
