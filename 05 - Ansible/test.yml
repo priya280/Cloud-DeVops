@@ -1,0 +1,64 @@
+# Use yaml Lint to validate ur code
+# convert yaml <-> json
+
+# 1. key : value
+name : Priya
+Rollno : 12
+College : VIIT
+ 
+# 2. comments
+# this is yaml script
+
+# 3. objects
+student1 : 
+  name : Priya
+  Rollno : 12
+  College : VIIT
+student2 : 
+  name : Tanu
+  Rollno : 13
+  College : VIIT
+
+# 4. List / array
+#for list '-' symbol is used
+
+student1:
+  name : Priya
+  Rollno : 12
+  subjects :
+    - DS
+    - DBMS
+    - OS
+    - TOC
+
+#another way to write list
+
+student1:
+  name : Priya
+  Rollno : 12
+  subjects : [DS, DBMS , OS, TOC]
+
+# 5. Strings
+name : " This is yml script \n"
+name : ' This is me.'
+name : This is yml
+
+# multiline string ; this will print all lines on each line
+string: |
+  This is Priya.
+  I study in Viit.
+  I study CS.
+
+# this will print all sentences in one sentence.
+string: >
+  This is Priya.
+  I study in Viit.
+  I study CS.
+
+# 6. Boolean 
+True | False
+Yes | No
+on | off
+
+--- #start of yml script
+... #end of yml script

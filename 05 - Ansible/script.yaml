@@ -1,0 +1,17 @@
+---
+- student1: 
+  rollno: 12
+  name: Priya
+  address:
+    street: Sassoon Road
+    Area: Wadia Nagar
+    Pin: 411001
+  Phoneno: [123459,66779]
+- student2:
+  rollno: 32
+  name: Vaish
+  address:
+    street: MG Road
+    Area: Gandgi Nagar
+    Pin: 411043
+  Phoneno: [12435, 966432]
