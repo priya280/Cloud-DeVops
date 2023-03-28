@@ -6,6 +6,7 @@ CI/CD tools -
 4. AWS CI/CD Pipeline
 Create pipeline using any tools and lang.
 
-YAML : Yaml Aend Markup Language
+YAML : Yaml Aend Markup Language , all configuration files are written in yaml .
 XML : For data interchanging , 
 JSON :
+
