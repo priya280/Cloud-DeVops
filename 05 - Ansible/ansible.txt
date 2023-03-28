@@ -1,0 +1,11 @@
+Docker , CI/CD and Git u should have knowledge abt it.
+CI/CD tools -
+1. Jenkins
+2. Github actions
+3. Circle CI
+4. AWS CI/CD Pipeline
+Create pipeline using any tools and lang.
+
+YAML : Yaml Aend Markup Language
+XML : For data interchanging , 
+JSON :
