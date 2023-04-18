@@ -1,0 +1,11 @@
+Jenkins is an integration tool.
+We can create JOBS in Jenkins.
+Event and Trigger are two things in Jenkins.
+Pipelines in Jenkins:
+1.Sriptive 2. Declarative
+we need to create a WEBHOOK in jenkins.
+Github repo with a project --> create a server ---> configure Jenkins ---> a Docker file ---> Deploy on EC2 instance ---> CI/ CD pipeline can be created.
+Develop --> Build --> Test --> Deploy 
+Difference betn Jenkins and Github Action.
+Artifact file is one which has source code and all files required to run the source code. (COde + Configuration files + readme files)
+Whats is devops, phases in devops, cicd, continuous dilevery and continuous deployment , devops vs agile.
